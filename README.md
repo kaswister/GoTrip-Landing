@@ -1,4 +1,4 @@
-GoTrip Landing page 
+GoTrip Landing page -- https://kaswister.github.io/GoTrip-Landing/
 
 My First frontend project
 sourse (youtube "WebCademy")
