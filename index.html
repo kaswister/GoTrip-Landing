@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Alivio</title>
         <link rel="stylesheet" href="./css/base.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -19,22 +19,28 @@
                                 <a href="#">GoTrip</a>
                             </h2>
                         </div>
-                        <ul class="nav__list">
+                        <ul class="nav__list nav__list--header">
                             <li><a href="#" class="active">Home</a></li>
                             <li><a href="#">Services</a></li>
                             <li><a href="#">Pricing</a></li>
                             <li><a href="#">Contact</a></li>
                         </ul>
-                        <ul class="nav__login">
+                        <ul class="nav__login nav__login--header">
                             <li><a href="#" >Sign up</a></li>
                             <li><a href="#" class="btn btn--login">Login</a></li>
                         </ul>
+
+                        <button type="button" class="nav__toggle">
+                          <div class="menu-icon-wrapper">
+                            <div class="menu-icon"></div>
+                          </div>
+                        </button>
                     </nav>
                 </div>
                 <div class="header__row">
                     <div class="header__content">
                         <div class="header__badge">exsplore the world</div>
-                        <h1 class="header__title">Explore The Natural Beauty Of Halmahera With Us</h1> 
+                        <h1 class="header__title">Explore The Natural Beauty Of Halmahera With Us</h1>
                         <div class="header__text">
                             <p>explore the beauty of god's earth in a beautiful forest and have fun</p>
                         </div>
@@ -45,10 +51,10 @@
                         <img src="./img/header/header-image.png" alt="Woman in the hat">
                     </div>
                 </div>
-                    
+
             </div>
         </header>
-        <main>
+        <main >
             <section class="destinations">
                 <div class="container-right">
                     <div class="destinations__row">
@@ -61,7 +67,7 @@
                                 <p>explore the beauty of god's earth in a beautiful forest and have fun</p>
                             </div>
                             <a href="#" class="btn">Exsplore Now</a>
-                            
+
                         </div>
                         <div class="destinations__slider">
                             <div class="slider">
@@ -84,13 +90,13 @@
 
             <section class="customers">
                 <div class="container">
-                    <div class="costomers__row">
+                    <div class="customers__row">
                         <div class="customers_img">
                             <img src="./img/customers/customers.jpg" alt="women whith paper map">
                         </div>
                         <div class="customers__content">
 
-                            <h2 class="customers__title">What do customers say about us?</h2>
+                            <h2 class="customers__title">What do customers say about&nbsp;us?</h2>
                             <div class="review">
                                 <div class="review__client">
                                     <div class="review__client-avatar">
@@ -127,7 +133,7 @@
                         </div>
 
                         <a href="#" class="btn">Get Started</a>
-    
+
                     </div>
                 </div>
             </section>
@@ -148,7 +154,7 @@
         </main>
         <footer class="footer">
             <div class="container">
-                <nav class="nav">
+                <nav class="nav nav--footer">
                     <div class="nav__logo">
                         <h2 class="logo logo--footer">
                             <a href="#">GoTrip</a>
@@ -160,7 +166,7 @@
                         <li><a href="#">Pricing</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
-                    <ul class="nav__login">
+                    <ul class="nav__login nav__login--footer">
                         <li><a href="#" >Sign up</a></li>
                         <li><a href="#" class="btn btn--login">Login</a></li>
                     </ul>
@@ -168,14 +174,14 @@
             </div>
         </footer>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" 
-        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" 
-        crossorigin="anonymous" 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous"
         referrerpolicy="no-referrer">
         </script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" 
-        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" 
-        crossorigin="anonymous" 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"
         referrerpolicy="no-referrer"></script>
         <script src="./js/main.js"></script>
     </body>
