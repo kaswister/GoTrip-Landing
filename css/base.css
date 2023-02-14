@@ -832,4 +832,15 @@ body {
     margin-bottom: 30px;
     font-size: 20px;
   }
+
+  /* Subscribe  */
+
+  .subscribe {
+    padding: 25px 0 30px;
+  }
+
+  .subscribe__title {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
 }
