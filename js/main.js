@@ -5,8 +5,21 @@ const owl = $('.owl-carousel');
 owl.owlCarousel({
     center: true,
     loop: true,
-    margin: 30,
+    margin: 20,
     items: 3,
+    responsive: {
+      850: {
+        // items: 4,
+      },
+
+      1000: {
+        margin: 20,
+      },
+
+      1200: {
+        margin: 30,
+      }
+    }
 
 });
 

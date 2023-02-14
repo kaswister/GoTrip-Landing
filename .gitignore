@@ -11,3 +11,4 @@ Thumbs.db
 *.json
 .stylelintrc.json
 .linthtml
+.DS_Store
