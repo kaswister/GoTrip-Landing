@@ -17,6 +17,7 @@ owl.owlCarousel({
       },
       1200: {
         margin: 30,
+        items: 3,
       }
     }
 
